@@ -6,6 +6,7 @@
 
 html {
     font-size: 1rem;
+    background-color: var(---color-fondo);
 }
 
 :root {
@@ -13,4 +14,5 @@ html {
     ---color2: white;
     ---color3: navy;
     ---color4: rgb(0, 0, 83);
+    ---color-fondo: rgb(7, 7, 166);
 }

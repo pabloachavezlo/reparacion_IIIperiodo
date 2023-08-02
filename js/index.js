@@ -9,7 +9,7 @@ data.forEach((cada_item) => {
 
     docu_item.innerHTML = `
         <div class="caja_img">
-            <img src="${cada_item.img}">
+            <img src="${cada_item.img}" alt="">
         </div>
         <h2>${cada_item.titulo}</h2>
         <p>${cada_item.descripción}</p>
