@@ -3,10 +3,10 @@ let header_elemento = `
 
     <h1>☢ Técnico Chávez ☢</h1>
     <ul>
-        <li>titutlo 1</li>
-        <li>titutlo 2</li>
-        <li>titutlo 3</li>
-        <li>titutlo 4</li>
+        <li>Computadores</li>
+        <li>Laptops</li>
+        <li>Dispositivos móviles</li>
+        <li>Lo otro</li>
     </ul>
     
 

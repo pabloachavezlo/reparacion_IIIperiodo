@@ -1,5 +1,4 @@
 import { data } from "./data.js";
-import { caja_descripción } from "./descripcion_del_producto.js";
 
 let main_DOM = document.querySelector(".main");
 
@@ -18,19 +17,3 @@ data.forEach((cada_item) => {
     
     main_DOM.appendChild(docu_item);
 });
-
-let productos = document.querySelectorAll(".item");
-console.log(productos);
-
-function saludar (){
-    let descripción_DOM = document.querySelectorAll(".descripcion_del_producto");
-
-    descripción_DOM.innerHTML = caja_descripción;
-
-}
-
-productos.forEach((cada_elemento) => {
-    console.log(cada_elemento);
-
-    cada_elemento.addEventListener("click", saludar);
-})

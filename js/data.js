@@ -2,7 +2,7 @@ let data = [
     {
         titulo: "Cambio de pasta térmica",
         precio: "Q100",
-        img: "https://mx.chemtronics.com/content/images/thumbs/0002268_circuit-works-thermal-paste-users-guide.jpeg",
+        img: "./img/elemento_1.png",
         descripción: "Cómo cambiar la pasta térmica del procesador",
         herramientas: [
             "Destornillador de estrella",
@@ -21,7 +21,7 @@ let data = [
     {
         titulo: "Actualización de BIOS",
         precio: "Q100",
-        img: "https://hardzone.es/app/uploads-hardzone.es/2021/09/Actualizar-BIOS.jpg",
+        img: "./img/elemento_2.png",
         descripción: "Cómo actualizar el BIOS de tu placa base para mejorar el rendimiento y la compatibilidad",
         herramientas: [
             "Unidad USB",
@@ -39,7 +39,7 @@ let data = [
     {
         titulo: "Limpieza del teclado",
         precio: "Q100",
-        img: "https://cdn.pccomponentes.com/blog/limpieza-teclado1.jpg",
+        img: "./img/elemento_3.png",
         descripción: "Cómo limpiar y mantener tu teclado para un mejor funcionamiento y apariencia",
         herramientas: [
             "Cepillo pequeño",
@@ -57,7 +57,7 @@ let data = [
     {
         titulo: "Instalación de RAM",
         precio: "Q100",
-        img: "https://datalockperu.com/wp-content/uploads/2022/03/Como-instalar-memoria-RAM-en-tu-PC-1.jpg",
+        img: "./img/elemento_4.png",
         descripción: "Cómo instalar módulos de memoria RAM adicionales para aumentar la capacidad y velocidad de tu computadora",
         herramientas: [
             "Pulsera antiestática",
@@ -76,7 +76,7 @@ let data = [
     {
         titulo: "Optimización del disco duro",
         precio: "Q100",
-        img: "https://hardzone.es/app/uploads-hardzone.es/2019/12/Disco-duro-01.jpg",
+        img: "./img/elemento_5.png",
         descripción: "Cómo desfragmentar y liberar espacio en tu disco duro para mejorar el rendimiento del sistema",
         herramientas: [
             "Software de desfragmentación",
@@ -93,7 +93,7 @@ let data = [
     {
         titulo: "Configuración de Red Wi-Fi",
         precio: "Q100",
-        img: "https://media.kasperskydaily.com/wp-content/uploads/sites/88/2014/12/05223339/wifi.png",
+        img: "./img/elemento_6.png",
         descripción: "Cómo configurar y asegurar una conexión Wi-Fi para tu computadora",
         herramientas: [
             "Contraseña de red",
@@ -111,7 +111,7 @@ let data = [
     {
         titulo: "Reemplazo de Ventiladores",
         precio: "Q100",
-        img: "https://tutowin10.com/wp-content/uploads/2020/02/cambiar-ventilador-pc-min.jpg",
+        img: "./img/elemento_7.png",
         descripción: "Cómo reemplazar los ventiladores defectuosos de tu computadora para evitar el sobrecalentamiento",
         herramientas: [
             "Destornillador",
@@ -131,7 +131,7 @@ let data = [
     {
         titulo: "Respaldo de Datos en la Nube",
         precio: "Q100",
-        img: "https://www.datos101.com/wp-content/uploads/2019/05/iStock-645150874-1200x480.jpg",
+        img: "./img/elemento_8.png",
         descripción: "Cómo realizar copias de seguridad de tus archivos importantes en servicios de almacenamiento en la nube",
         herramientas: [
             "Cuenta de almacenamiento en la nube",
@@ -149,7 +149,7 @@ let data = [
     {
         titulo: "Instalación de Tarjeta Gráfica",
         precio: "Q100",
-        img: "https://lignux.com/wp-content/uploads/2021/04/Tarjeta-grafica.jpg",
+        img: "./img/elemento_9.png",
         descripción: "Cómo instalar una nueva tarjeta gráfica para mejorar el rendimiento gráfico de tu computadora",
         herramientas: [
             "Destornillador",
@@ -170,7 +170,7 @@ let data = [
     {
         titulo: "Mantenimiento del Sistema Operativo",
         precio: "Q100",
-        img: "https://blog.redigit.es/wp-content/uploads/2018/10/imagen-destacada-mantenimiento-ordenadores-redigit.jpg",
+        img: "./img/elemento_10.png",
         descripción: "Cómo realizar un mantenimiento regular del sistema operativo para mantenerlo actualizado y optimizado",
         herramientas: [
             "Actualizaciones de software",

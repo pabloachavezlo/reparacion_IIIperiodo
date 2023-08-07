@@ -29,11 +29,12 @@
     border: 1px solid white;
     color: white;
     transition: 0.5s;
+
+    cursor: pointer;
 }
 .item:hover img {
     -webkit-filter: blur(2px);
     filter: blur(2px);
-
 }
 
 .caja_img {
