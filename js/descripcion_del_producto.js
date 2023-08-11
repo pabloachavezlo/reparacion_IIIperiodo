@@ -1,14 +1,28 @@
-let productos = document.querySelectorAll(".item");
+export function descripcion(data, index) {
+    
+  return `
+    <div class="Descript">
 
-function ver_descripcion () {
-    let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
-    caja_descripcion_DOM.innerHTML = caja_descripcion(this.id);
-
-    let main = document.querySelector("#main");
-    main.classList.add("ocultar");
+      <div class="big-box">
+        <section class="img">
+          <img class="imagen" src="${data[index].img}" alt="${data[index].titulo}">
+        </section>
+    
+        <section class="middle">
+          <h1 class="titulo_principal">${data[index].titulo}</h1>
+          <h2 class="descripciones">${data[index].descripción}</h2>
+          <div class="precios">
+            <button class="precio-valor">Q100.00</button>
+            <button class="comprar-btn">Comprar</button>
+            <button class="do_it">Hagalo usted mismo</button>
+          </div>
+          <ul class="lista">Herramientas: ${data[index].herramientas.map((herramienta) => `<li>${herramienta}</li>`).join("")}</ul>
+          <ul class="lista">Pasos: ${data[index].pasos.map((pasos) => `<li>${pasos}</li>`).join("")}</ul>
+        </section>
+      </div>
+    </div>
+  `;
 }
 
 
-productos.forEach((cada_item) => {
-    cada_item.addEventListener("click", ver_descripcion);
-})
+ 

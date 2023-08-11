@@ -3,7 +3,7 @@
     width: 100%;
     justify-content: space-around;
 
-    background-color: var(---color4);
+    background-color: var(---color5);
     gap: 1rem;
     color: var(---color2);
     position:fixed;
@@ -30,6 +30,8 @@
     padding: 1rem 2rem;
     border-radius: 4px;
     cursor: pointer;
+    
+    font-size: 0.8rem;
 }
 
 .header ul li:hover {

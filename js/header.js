@@ -1,7 +1,7 @@
 let header = document.querySelector(".header")
 let header_elemento = `
 
-    <h1>☢ Técnico Chávez ☢</h1>
+    <h1>☢ TÉCNICO CHÁVEZ ☢</h1>
     <ul>
         <li>Computadores</li>
         <li>Laptops</li>

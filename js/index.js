@@ -1,4 +1,5 @@
 import { data } from "./data.js";
+import { descripcion } from "./descripcion_del_producto.js";
 
 let main_DOM = document.querySelector(".main");
 
@@ -17,3 +18,18 @@ data.forEach((cada_item) => {
     
     main_DOM.appendChild(docu_item);
 });
+
+let productos = document.querySelectorAll(".item");
+
+function mostrarDescripcion(event) {
+  let caja_descripcion_DOM = document.querySelector(".descripcion_del_producto");
+
+  let index = Array.from(productos).indexOf(event.currentTarget);
+
+  let productDescriptionHTML = descripcion(data, index);
+  caja_descripcion_DOM.innerHTML = productDescriptionHTML;
+}
+
+productos.forEach((cada_elemento) => {
+  cada_elemento.addEventListener("click", mostrarDescripcion);
+})
