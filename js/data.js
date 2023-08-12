@@ -1,7 +1,7 @@
 let data = [
     {
         titulo: "Cambio de pasta térmica",
-        precio: "Q100",
+        precio: "Q 150",
         img: "./img/elemento_1.png",
         descripción: "Cómo cambiar la pasta térmica del procesador",
         herramientas: [
@@ -20,7 +20,7 @@ let data = [
     },
     {
         titulo: "Actualización de BIOS",
-        precio: "Q100",
+        precio: "Q 100",
         img: "./img/elemento_2.png",
         descripción: "Cómo actualizar el BIOS de tu placa base para mejorar el rendimiento y la compatibilidad",
         herramientas: [
@@ -38,7 +38,7 @@ let data = [
     },
     {
         titulo: "Limpieza del teclado",
-        precio: "Q100",
+        precio: "Q 150",
         img: "./img/elemento_3.png",
         descripción: "Cómo limpiar y mantener tu teclado para un mejor funcionamiento y apariencia",
         herramientas: [
@@ -56,7 +56,7 @@ let data = [
     },
     {
         titulo: "Instalación de RAM",
-        precio: "Q100",
+        precio: "Q 100",
         img: "./img/elemento_4.png",
         descripción: "Cómo instalar módulos de memoria RAM adicionales para aumentar la capacidad y velocidad de tu computadora",
         herramientas: [
@@ -75,7 +75,7 @@ let data = [
     },
     {
         titulo: "Optimización del disco duro",
-        precio: "Q100",
+        precio: "Q 150",
         img: "./img/elemento_5.png",
         descripción: "Cómo desfragmentar y liberar espacio en tu disco duro para mejorar el rendimiento del sistema",
         herramientas: [
@@ -92,7 +92,7 @@ let data = [
     },
     {
         titulo: "Configuración de Red Wi-Fi",
-        precio: "Q100",
+        precio: "Q 175",
         img: "./img/elemento_6.png",
         descripción: "Cómo configurar y asegurar una conexión Wi-Fi para tu computadora",
         herramientas: [
@@ -110,7 +110,7 @@ let data = [
     },
     {
         titulo: "Reemplazo de Ventiladores",
-        precio: "Q100",
+        precio: "Q 200",
         img: "./img/elemento_7.png",
         descripción: "Cómo reemplazar los ventiladores defectuosos de tu computadora para evitar el sobrecalentamiento",
         herramientas: [
@@ -130,7 +130,7 @@ let data = [
     },
     {
         titulo: "Respaldo de Datos en la Nube",
-        precio: "Q100",
+        precio: "Q 100",
         img: "./img/elemento_8.png",
         descripción: "Cómo realizar copias de seguridad de tus archivos importantes en servicios de almacenamiento en la nube",
         herramientas: [
@@ -148,7 +148,7 @@ let data = [
     },
     {
         titulo: "Instalación de Tarjeta Gráfica",
-        precio: "Q100",
+        precio: "Q 150",
         img: "./img/elemento_9.png",
         descripción: "Cómo instalar una nueva tarjeta gráfica para mejorar el rendimiento gráfico de tu computadora",
         herramientas: [
@@ -165,11 +165,12 @@ let data = [
             "Vuelve a cerrar el panel lateral de la caja de la computadora.",
             "Conecta la computadora de nuevo y enciéndela.",
             "Instala los controladores de la tarjeta gráfica desde el sitio web del fabricante."
-        ]
+        ],
+        razon: "De esta manera podemos mantener nuestra tarjeta gráfica podemos "
     },
     {
         titulo: "Mantenimiento del Sistema Operativo",
-        precio: "Q100",
+        precio: "Q 125",
         img: "./img/elemento_10.png",
         descripción: "Cómo realizar un mantenimiento regular del sistema operativo para mantenerlo actualizado y optimizado",
         herramientas: [
@@ -184,7 +185,8 @@ let data = [
             "Optimiza la configuración del sistema operativo para un mejor rendimiento.",
             "Realiza copias de seguridad regulares de tus archivos importantes.",
             "Mantén actualizados los controladores de hardware para un funcionamiento óptimo."
-        ]
+        ],
+        razon: "Es importante realizarlo para garantizar que se pueda seguir utilizando durante mucho tiempo, reduciendo los riesgos de avería y caducidad"
     }
 ];
 
