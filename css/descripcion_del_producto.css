@@ -1,11 +1,12 @@
 .descripcion_del_producto{
     max-width: 130rem;
-    max-height: 40rem;
+    max-height: 37rem;
     margin: auto;
 
-    background-color: rgb(11, 216, 11);
+    /*background-color: rgb(11, 216, 11);*/
+    background-color:rgb(109, 224, 91);
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
 .Descript {
@@ -13,26 +14,26 @@
 }
 
 .big-box {
-    height: auto;
+    height: 25rem;
     display: flex;
     flex-direction: row;    
     padding: 1rem;
     margin: 7rem 2rem;
 
-
-    background-color: rgb(3, 99, 3);
+    background-color: var(---color-fondo2);
 }
 .img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40%;
-    object-fit: contain;
 }
 .img > .imagen{
-    height: 90%;
+    height: 80%;
     width: 80%;
-    border-radius: 2rem;
+    border-radius: 0.8rem;
+    
+    object-fit: cover;
     
     border: 2px solid black;
 
@@ -42,52 +43,58 @@
     width: 60%;
     height: auto;
     padding: 1rem;
+    
+    
 }
 
 .titulo_principal{
     color: rgb(0, 0, 0);
     font-size: 4.5rem;
-    font-weight: 900;
+    
+    font-family: 'Raleway', sans-serif;
+    font-style: oblique;
 }
 
 .descripcion {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 800;
     padding-top: 0.7rem;
+
+    font-family: 'Raleway', sans-serif;
 }
-
-.lista {
-    font-size: 1rem;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-
-
-    padding-top: 1rem;
-}
-.lista > p {
-    color: rgb(98, 2, 2);
-    font-weight: 900;
-
-    font-family: 'REM', sans-serif;
-    font-style: italic;
-}
-
-.lista2 {
+ 
+.lista3 {
     font-size: 1rem;
     padding-left: 1rem;
     padding-bottom: 1.8rem;
-}
-.lista2 > p {
-    color: rgb(98, 2, 2);
-    font-weight: 900;
 
-    font-family: 'REM', sans-serif;
-    font-style: italic;
+    
+    font-family: 'Raleway', sans-serif;
 }
+.lista3 > h5 {
+    color: white;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    width: 42%;
+    height: 15%;
+    text-align: center;
+    padding-top: 0.5rem;
+
+    border: 3px double white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.lista3 > p {
+    padding-top: 1rem;
+}
+
 
 .botones {
     display: flex;
     justify-content: space-around;
+    padding-top: 2rem;
+
+    font-family: 'Raleway', sans-serif;
 }
 
 .precio {

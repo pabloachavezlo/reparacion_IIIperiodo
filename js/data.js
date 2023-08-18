@@ -16,7 +16,8 @@ let data = [
             "Aplica una nueva capa de pasta térmica en el procesador.",
             "Vuelve a colocar el disipador de calor en su lugar y asegúralo con el destornillador.",
             "Conecta la computadora de nuevo y enciéndela."
-        ]
+        ],
+        razon: "Cambiar la pasta térmica cada cierto tiempo evitará que el procesador se sobrecaliente y por lo tanto los ventiladores no tengan que trabajar tanto tratando de enfriarlo."
     },
     {
         titulo: "Actualización de BIOS",
@@ -34,7 +35,8 @@ let data = [
             "Busca la opción de actualización de BIOS y selecciona el archivo desde la unidad USB.",
             "Sigue las instrucciones en pantalla para completar la actualización.",
             "Una vez que la actualización se complete, reinicia la computadora."
-        ]
+        ],
+        razon: "Actualizar la BIOS servirá para mantener nuestro equipo actualizado y que este mantenga una buena compatibilidad con los otros módulos de la computadora (hardware, firmware, etc.)"
     },
     {
         titulo: "Limpieza del teclado",
@@ -52,7 +54,8 @@ let data = [
             "Rocía aire comprimido para eliminar la suciedad y el polvo atrapados.",
             "Humedece el paño suave con agua o una solución de limpieza suave y limpia las teclas con cuidado.",
             "Seca el teclado completamente antes de volver a conectarlo a la computadora."
-        ]
+        ],
+        razon: "La limpieza del teclado es algo primordial, ya que evita que con el tiempo las teclas y el mismo teclado en sí vayan a mostrar fallas por desaseo o un mal cuidado."
     },
     {
         titulo: "Instalación de RAM",
@@ -71,7 +74,8 @@ let data = [
             "Presiona los módulos de RAM cuidadosamente en las ranuras hasta que encajen en su lugar.",
             "Vuelve a cerrar el panel lateral de la caja de la computadora.",
             "Conecta la computadora y enciéndela para verificar la nueva RAM."
-        ]
+        ],
+        razon: "La instalación de mayor RAM va a aumentar la cantidad de RAM en nuestras PC y por lo tanto nuestro equipo tendrá mejores capacidades a la hora de su uso, lo cuál es algo ideal para todos."
     },
     {
         titulo: "Optimización del disco duro",
@@ -88,7 +92,8 @@ let data = [
             "Lanza la utilidad de limpieza de disco para eliminar archivos innecesarios y temporales.",
             "Selecciona los archivos que desees eliminar y confirma la limpieza.",
             "Reinicia la computadora para aplicar los cambios y mejorar el rendimiento del disco duro."
-        ]
+        ],
+        razon: "Mejor conocido como proceso de desfragmentación, este procse nos permite ampliar más el espacio del disco lo cuál resulta ideal para aquellos que no tienen tanto espacio."
     },
     {
         titulo: "Configuración de Red Wi-Fi",
@@ -106,7 +111,8 @@ let data = [
             "Accede a la configuración del enrutador para asegurar la red mediante el cifrado WPA2 o superior.",
             "Establece una contraseña segura para el enrutador y guarda los cambios.",
             "Reinicia la computadora y comprueba que esté conectada a la red Wi-Fi de manera segura."
-        ]
+        ],
+        razon: "Hacer esto evitará que los datos que transitan por nuestra red sean interceptados por algún hacker y pueda robar nuestra información."
     },
     {
         titulo: "Reemplazo de Ventiladores",
@@ -126,7 +132,8 @@ let data = [
             "Conecta los cables de los nuevos ventiladores a la placa base.",
             "Vuelve a cerrar el panel lateral de la caja de la computadora y conecta la computadora de nuevo.",
             "Enciende la computadora y verifica que los nuevos ventiladores funcionen correctamente."
-        ]
+        ],
+        razon: "Cambiar los ventiladores cuando estos ya se están desgastando evitará que nuestra PC llegue a sobre calentarse evitando algún posible daño permanente."
     },
     {
         titulo: "Respaldo de Datos en la Nube",
@@ -144,7 +151,8 @@ let data = [
             "Selecciona los archivos que desees respaldar y súbelos al almacenamiento en la nube.",
             "Espera a que los archivos se suban y confirmen que están seguros en la nube.",
             "Accede a tus archivos respaldados desde cualquier dispositivo con tu cuenta de almacenamiento en la nube."
-        ]
+        ],
+        razon: "Esto nos evitará perder nuestros archivos dentro de la computadora y si alguna vez perdemos nuestro equipo el respaldo nos ayudará a recuperar esos archivos extraviados." 
     },
     {
         titulo: "Instalación de Tarjeta Gráfica",
@@ -166,7 +174,7 @@ let data = [
             "Conecta la computadora de nuevo y enciéndela.",
             "Instala los controladores de la tarjeta gráfica desde el sitio web del fabricante."
         ],
-        razon: "De esta manera podemos mantener nuestra tarjeta gráfica podemos "
+        razon: "De esta manera podemos mantener nuestra tarjeta gráfica limpia y evitamos algún daño permanente tanto para la tarjeta así como un mal uso de la computadora."
     },
     {
         titulo: "Mantenimiento del Sistema Operativo",
@@ -186,7 +194,7 @@ let data = [
             "Realiza copias de seguridad regulares de tus archivos importantes.",
             "Mantén actualizados los controladores de hardware para un funcionamiento óptimo."
         ],
-        razon: "Es importante realizarlo para garantizar que se pueda seguir utilizando durante mucho tiempo, reduciendo los riesgos de avería y caducidad"
+        razon: "Es importante realizarlo para garantizar que se pueda seguir utilizando durante mucho tiempo, reduciendo los riesgos de avería y caducidad."
     }
 ];
 
